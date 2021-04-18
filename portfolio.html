@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <div class="container header-container">
-        <header class="page-header">
+    <div class="header-container">
+        <header class="container page-header">
             <nav class="site-nav">
                 <a class="link logo-text logo" href="index.html">Web<span class="logo-item">Studio</span></a>
                 <ul class="list list-nav">
@@ -40,13 +40,14 @@
     </div>
     <main>
         <!-- Секция видов работ -->
-        <div class="container">
+    
             <section class="section">
+                <div class="container">
                 <h1 class="visually-hidden">
                     Виды нашей деятельности
                 </h1>
-                <div class="work-nav">
-                    <ul class="list work-types">
+
+                    <ul class="list work-types work-nav ">
                         <li class="work-type-item"><button type="button" class="button-portfolio">Всё</button></li>
                         <li class="work-type-item"><button type="button" class="button-portfolio">Веб-сайты</button>
                         </li>
@@ -56,7 +57,6 @@
                         <li class="work-type-item"><button type="button" class="button-portfolio">Маркетинг</button>
                         </li>
                     </ul>
-                </div>
                 <ul class="list project-list card-set">
                     <li class="item project-item">
                         <img src="./images/projects-photo/img1.jpg" alt="Страница веб-сайта Технокряк" width=370>
@@ -123,25 +123,27 @@
                         </div>
                     </li>
                 </ul>
+                </div>
         </section>
-        </div>
+       
     </main>
 
     <footer>
         <div class="footer-section">
             <div class="container">
-                <a class="link logo-text" href="index.html">Web<span class="logo-item-white">Studio</span></a>
+                <a class="link logo-text logo-text-footer" href="index.html">Web<span
+                        class="logo-item-white">Studio</span></a>
                 <address>
                     <ul class="list">
-                        <li>
+                        <li class="adress-in-foot-list">
                             <a class="link address-in-footer" href="https://goo.gl/maps/eZaEBdZkiq7512ZRA">г. Киев, пр-т
                                 Леси
                                 Украинки, 26</a>
                         </li>
-                        <li>
+                        <li class="adress-in-foot-list">
                             <a class="link address-in-footer-tr" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
-                        <li>
+                        <li class="adress-in-foot-list">
                             <a class="link address-in-footer-tr" href="tel:+380961111111">+38 096 111 11 11</a>
                         </li>
                     </ul>
